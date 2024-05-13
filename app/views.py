@@ -8,7 +8,7 @@ import numpy as np
 from keras.utils import load_img, img_to_array
 from keras.models import load_model
 
-model_s = load_model("app/static/model/mnist_Adam2_20210516.h5")
+model_s = load_model("app/static/model/my_mini_model.keras")
 path = ""; secure_files = []
 
 def allowed_file(filename):
